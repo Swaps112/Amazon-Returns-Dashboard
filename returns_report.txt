@@ -1,0 +1,27 @@
+
+Amazon Softlines Returns Dashboard
+=================================
+Date: July 06, 2025
+Amazon Stock Price: $223.41
+Market Cap: $2.37T
+
+Key Metrics:
+- Total Revenue: $400,000,000,000.00
+- Total Returns Cost: $450,000.00
+- Average Return Rate: 17.00%
+- Average Cost per Return: $50.00
+- Average Profit Margin (after returns): 100.00%
+
+Highest Return Category: Women’s Clothing (US)
+- Return Rate: 20.00%
+- Cost per Return: $50.00
+
+Lowest Return Category: Kids’ Clothing (EU)
+- Return Rate: 15.00%
+- Cost per Return: $50.00
+
+What Should We Do?
+1. Tighten return policies for Women’s Clothing (return rate: 20.00%).
+2. Streamline restocking for Women’s Clothing (cost: $50.00).
+3. Improve product listings for Women’s Clothing to cut down returns.
+4. Keep this dashboard updated automatically with SQL and APIs.
