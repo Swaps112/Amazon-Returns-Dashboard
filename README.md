@@ -1,8 +1,8 @@
 # Amazon Softlines Returns Analysis Dashboard
-# Hey there! This script builds a dashboard to analyze customer returns in Amazon's Softlines (fashion) business.
+# This script builds a dashboard to analyze customer returns in Amazon's Softlines business.
 # It calculates return rates, costs, and their impact on profits, then suggests ways to save money.
-# We use mock data (since real data needs internal access), fetch Amazon's stock price, and create visuals for leadership.
-# Tools: Python, SQL, Seaborn, and yfinance. You can extend it with Tableau for fancier dashboards.
+# We use mock data, fetch Amazon's stock price, and create visuals for leadership.
+# Tools: Python, SQL, Seaborn, and yfinance.
 # Let's dive in!
 
 import pandas as pd
@@ -22,7 +22,7 @@ logging.basicConfig(filename='returns_dashboard.log', level=logging.INFO, format
 load_dotenv()
 sec_api_key = os.getenv("SEC_API_KEY")
 
-# Step 1: Grab Amazon's stock price and market cap
+# Step 1: Amazon's stock price and market cap
 def get_stock_info():
     try:
         amzn = yf.Ticker("AMZN")
